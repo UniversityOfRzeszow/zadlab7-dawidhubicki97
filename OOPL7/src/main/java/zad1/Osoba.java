@@ -6,6 +6,7 @@
 package zad1;
 
 import zad1.Student;
+import zad2.punkt3d;
 
 /**
  *
@@ -65,8 +66,8 @@ public class Osoba {
     }
   
      public static void main(String[] args) {
-      Student studencik=new Student(5,"stacjonarne","Infa",5,"dawid","Hubicki","1.10.1997","Mezczyzna");
-      System.out.println(studencik.getImie());
+    punkt3d punkcik = new punkt3d();
+      System.out.println( punkcik.toString());
     }
 }
 
