@@ -43,10 +43,5 @@ public class punkt2d {
         return "punkt2d{" + "x=" + x + ", y=" + y + '}';
     }
    
-    public static void main(String[] args) {
-       punkt3d punkcik = new punkt3d();
-       System.out.println("DZialac");
-       punkcik.toString();
-    }
     
 }

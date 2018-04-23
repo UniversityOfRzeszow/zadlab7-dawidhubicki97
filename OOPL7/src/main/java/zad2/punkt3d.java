@@ -15,7 +15,8 @@ public class punkt3d extends punkt2d {
  int z;
    
  public punkt3d() {
-       Random generator = new Random();
+       super();
+     Random generator = new Random();
         this.z= generator.nextInt(20) + -10;
     }
 
